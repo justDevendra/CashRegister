@@ -192,7 +192,7 @@ export const App = () => {
                         mostraDatiFattura?<ComponenteDatiFattura  datoFattura1={datoFattura1} datoFattura2={datoFattura2}/>:null //se useSate "mostraDatiFattura" è "true" il "componenteDatiFattura" verrà mostrato altrimenti non verrà niente...
                     } 
                     {
-                        mostraErroreFetch?<ComponenteErroreFetch msg={"C'è qualcosa che non va....non riesco a tirare il dati:/"}/>:<ComponenteMain  
+                        mostraErroreFetch?<ComponenteErroreFetch msg={"C'è qualcosa che non va....non riesco a tirare i dati:/"}/>:<ComponenteMain  
                                                                         setMostraModel={setMostraModel} 
                                                                         numProdottiAggiunti={numProdottiAggiunti} 
                                                                         setNumProdottiAggiunti={setNumProdottiAggiunti}
